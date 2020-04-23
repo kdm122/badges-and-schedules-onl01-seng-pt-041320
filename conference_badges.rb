@@ -28,8 +28,8 @@ def assign_rooms(name_array)
   room_assignments.push(room_text)
 end
   
-  return rooms
-  puts "#{rooms}"
+  return room_assignments
+  puts "#{room_assignments}"
 end
 
 def printer(name_array)
@@ -39,7 +39,7 @@ def printer(name_array)
   end
 #  puts assign_rooms(name)
 
-  rooms.each do |room|
+  room_assignments.each do |room|
     puts "#{room}"
   end
 
