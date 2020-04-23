@@ -21,11 +21,11 @@ end
 
 def assign_rooms(name_array)
   room_num = 0
-  rooms = []
+  room_assignments = []
   name_array.each_with_index do |name, room_num|
   room_num += 1
   room_text = "Hello, #{name}! You'll be assigned to room #{room_num}!" 
-  rooms.push(room_text)
+  room_assignments.push(room_text)
 end
   
   return rooms
