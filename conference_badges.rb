@@ -36,7 +36,12 @@ def printer(name_array)
   badges.each do |badge|
     puts "#{badge}"
   end
-  puts assign_rooms(name)
+#  puts assign_rooms(name)
+
+  rooms.each do |room|
+    puts "#{room}"
+  end
+
 end
 end
 
