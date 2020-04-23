@@ -43,6 +43,6 @@ def printer(name_array)
   end
 
 end
-end
+
 
 #batch_badge_creator(name_array)
