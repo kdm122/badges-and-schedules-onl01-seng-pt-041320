@@ -32,8 +32,10 @@ end
 end
 
 def printer(name_array)
-  name_array.each do |name|
-  puts batch_badge_creator(name)
+#  name_array.each do |name|
+  badges.each do |badge|
+    puts "#{badge}"
+  end
   puts assign_rooms(name)
 end
 end
