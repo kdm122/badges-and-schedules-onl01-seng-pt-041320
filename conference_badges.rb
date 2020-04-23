@@ -29,6 +29,7 @@ def assign_rooms(name_array)
 end
   
   return rooms
+  puts "#{rooms}"
 end
 
 def printer(name_array)
