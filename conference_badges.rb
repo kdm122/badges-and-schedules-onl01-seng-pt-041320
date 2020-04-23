@@ -22,7 +22,7 @@ end
 def assign_rooms(name_array)
   room_num = 0
   rooms = []
-  name_array.each do |name|
+  name_array.each_with_index do |name, room_num|
   room_num += 1
   room_text = "Hello, #{name}! You'll be assigned to room #{room_num}!" 
   rooms.push(room_text)
